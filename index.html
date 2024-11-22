@@ -45,21 +45,22 @@
         <div class="card mb-4">
             <div class="card-body">
                 <h2 class="card-title h4">Syötä tiedot</h2>
+                <h6 class="mb-4">Oletuksena on vuosipalkka ja vuosiliikevaihto. Jos palkka- ja liikevaihtoarvot annetaan kuukausikohtaisina, laskuri antaa kuukausikohtaisen, laskennallisen työtulosuosituksen.</h6>
                 <form id="calculatorForm">
                     <div class="mb-3">
                         <label for="mediaanipalkka" class="form-label">Toimialan mediaanipalkka (M)</label>
                         <input type="number" class="form-control" id="mediaanipalkka" step="0.01" value="42000" required>
-                        <div class="form-text">Esimerkki: 42 000 € / vuosi</div>
+                        <div class="form-text">Esimerkki: 42 000 € </div>
                     </div>
                     <div class="mb-3">
                         <label for="mediaaniliikevaihto" class="form-label">Toimialan mediaaniliikevaihto (V)</label>
-                        <input type="number" class="form-control" id="mediaaniliikevaihto" step="0.01" value="52500" required>
-                        <div class="form-text">Esimerkki: 52500 € / kk (1.5 × mediaanipalkka)</div>
+                        <input type="number" class="form-control" id="mediaaniliikevaihto" step="0.01" value="630000" required>
+                        <div class="form-text">Esimerkki: 630 000 € (1.5 × mediaanipalkka)</div>
                     </div>
                     <div class="mb-3">
                         <label for="liikevaihto" class="form-label">Yrittäjän liikevaihto (L)</label>
-                        <input type="number" class="form-control" id="liikevaihto" step="0.01" value="60000" required>
-                        <div class="form-text">Esimerkki: 60000 € / kk</div>
+                        <input type="number" class="form-control" id="liikevaihto" step="0.01" value="600000" required>
+                        <div class="form-text">Esimerkki: 600 000 € </div>
                     </div>
                     <div class="mb-3">
                         <label for="osaAikaisuus" class="form-label">Osa-aikaisuuskerroin (O)</label>
